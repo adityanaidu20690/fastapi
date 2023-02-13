@@ -1,0 +1,7 @@
+version: "3"
+services:
+  huntapp:
+    image: huntapp
+    container_name: huntapp
+    ports:
+      - 8000:8000 
